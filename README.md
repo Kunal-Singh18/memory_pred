@@ -16,4 +16,19 @@ We process the traces into a dataset and evaluate simple memory replacement algo
 
 ```powershell
 wpr -?
+
 wpa
+Collecting a Trace
+
+Open PowerShell as Administrator
+
+Start recording:
+
+wpr -start Resource -filemode
+
+
+Use your PC normally for 2–3 minutes (open Chrome, VS Code, Excel, etc.)
+
+Stop and save the trace:
+
+wpr -stop C:\trace.etl
